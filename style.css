@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     background: 
-        linear-gradient(#003790, #d9c300)
+        linear-gradient(#003790, #d9c300, black)
 }
 
 #formulario{
@@ -21,7 +21,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
     background:  
         linear-gradient(rgb(255, 233, 107), #57b3ff);
     box-shadow: rgb(94, 94, 94) 5px 5px 5px 5px;   
