@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: 
+        linear-gradient(#003790, #d9c300)
+}
+
+#formulario{
+    height: 40%;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    background:  
+        linear-gradient(rgb(255, 233, 107), #57b3ff);
+    box-shadow: rgb(94, 94, 94) 5px 5px 5px 5px;   
+}
+
+#binarios{
+   width: 70%;
+   height: 50px;
+   border-radius: 10px;
+   text-align: center;
+   font-size: 1.4rem;
+   
+}
+
+#convertir{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: #003790;
+    color: #d9c300;
+    margin:10%;
+    transition: 0.1s;
+}
+
+#convertir:hover{
+    box-shadow:#d9c300 1px 1px 20px 2px ;
+    border: #d9c300 1px solid;
+}
+
+#resultado{
+    padding: 10px;
+    font-size: 3.5rem ;
+}
+
+@media (max-width : 480px){
+    #binarios{
+        font-size: 1rem;
+    }
+
+    #formulario{
+        width: 90%;
+    }
+}
+
